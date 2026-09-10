@@ -1,4 +1,5 @@
-//Botao curtidas
+
+    //Botao curtidas
 document.addEventListener("DOMContentLoaded", () =>{
 const likeBtn = document.querySelector(".left-actions .action-btn:first-child");
 if (!likeBtn) return;
@@ -30,6 +31,5 @@ likeSvg.style.color = "#ef4444";
 likeSvg.style.transform = "scale(1.3)";
 setTimeout(() => (likeSvg.style.transform = "scale(1)")150);
 }
-    
 
 
